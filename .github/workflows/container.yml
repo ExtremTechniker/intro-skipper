@@ -45,7 +45,7 @@ jobs:
       - name: Checkout modified web interface
         uses: actions/checkout@v3
         with:
-          repository: ConfusedPolarBear/jellyfin-web
+          repository: ExtremTechniker/jellyfin-web
           ref: intros
           path: web
 
